@@ -2,6 +2,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import os
+from flask import Flask
 
 server = os.getenv("SERVER")
 
